@@ -1,0 +1,72 @@
+/* admin/dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #343a40;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar-header {
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .sidebar ul li {
+    width: 100%;
+  }
+  
+  .sidebar ul li a, .sidebar ul li button {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .sidebar ul li a:hover, .sidebar ul li button:hover {
+    background-color: #495057;
+  }
+  
+  .button-logout {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .dashboard-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+  }
+  
+  .chart-box {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  

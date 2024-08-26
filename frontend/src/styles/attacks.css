@@ -1,0 +1,258 @@
+.attacks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.attack-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.progress-node {
+  width: 30px;
+  height: 30px;
+  background-color: #f0ad4e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.progress-node.completed {
+  background-color: #4caf50;
+}
+
+.progress-line {
+  width: 2px;
+  height: 265px; 
+  background-color: #ccc;
+  position: absolute;
+  top: 35px; 
+  z-index: -1;
+}
+
+.attack-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  flex: 1;
+  position: relative;
+}
+
+.attack-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.attack-card h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.attack-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.attack-card p span {
+  font-weight: bold;
+}
+
+.attack-card p.category {
+  font-size: 0.9em;
+  color: #888;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.attack-card p.severity {
+  font-size: 0.9em;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.severity-low {
+  background-color: #4caf50;
+}
+
+.severity-medium {
+  background-color: #ebe849;
+}
+
+.severity-high {
+  background-color: #ffa023;
+}
+
+.severity-critical {
+  background-color: #ff0000;
+}
+
+.mitigation {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #2196f3;
+  border-radius: 4px;
+  font-size: 0.95em;
+  color: #333;
+}
+
+.completed-text {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white !important;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.complete-button {
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.complete-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.attack-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.attack-card a:hover {
+  color: #0056b3;
+  border-bottom: 2px solid #0056b3;
+}
+
+@media (max-width: 768px) {
+  .attack-card {
+      width: calc(100% - 40px);
+      max-width: none;
+      margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .attack-card {
+      width: calc(100% - 20px);
+      margin: 5px;
+      padding: 15px;
+  }
+
+  .attack-card h1 {
+      font-size: 1.2em;
+  }
+
+  .attack-card p {
+      font-size: 0.9em;
+  }
+}
+
+
+
+.final-exam-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.final-exam-item .progress-node {
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.final-exam-item .progress-node.completed {
+  background-color: #4caf50;
+}
+
+.final-exam-item .progress-node.locked {
+  background-color: #ccc;
+}
+
+.final-exam-item .progress-node.locked span {
+  color: #777;
+}
+
+.locked-text {
+  color: #777;
+}
+
+.attack-card .locked-text {
+  font-size: 1em;
+  color: #777;
+  margin-top: 10px;
+  display: block;
+}
+
+.attack-card .locked-text {
+  font-size: 1em;
+  color: #777;
+  margin-top: 10px;
+  display: block;
+}
+
+.attack-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.attack-card a:hover {
+  color: #0056b3;
+  border-bottom: 2px solid #0056b3;
+}
+
+

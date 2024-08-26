@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+.lab-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.lab-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.lab-container p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.labs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.lab-item {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(50% - 40px); 
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+}
+
+.lab-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.lab-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.lab-item p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.lab-link {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.lab-link:hover {
+    background-color: #45a049;
+}
+
+
+@media (max-width: 768px) {
+    .lab-item {
+        width: calc(100% - 40px); 
+    }
+}
+.lab-item {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding: 20px;
+    width: calc(50% - 40px); /* Two items per row */
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+}
+
+.lab-image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 15px;
+    max-height:250px;
+}
+
+.lab-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.lab-item p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.lab-link {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.lab-link:hover {
+    background-color: #45a049;
+}
+

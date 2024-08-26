@@ -1,0 +1,61 @@
+
+.mcq-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.question-block {
+    margin-bottom: 2rem;
+}
+
+.question-block h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.answers-block {
+    margin-top: 1rem;
+}
+
+.answer-option {
+    margin-bottom: 1rem;
+}
+
+.answer-option input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+.answer-option label {
+    font-size: 1rem;
+    color: #555;
+}
+
+.button-submit {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-submit:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.result h2 {
+    color: #28a745;
+}

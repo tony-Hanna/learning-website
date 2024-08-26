@@ -1,0 +1,83 @@
+/* styles/lab.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #343a40;
+    padding: 1rem;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.lab-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.email-details {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.email-details p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.actions {
+    margin-bottom: 1.5rem;
+}
+
+.actions button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.actions button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 1.5rem;
+}
+
+.result p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.result button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.result button:hover {
+    background-color: #218838;
+}

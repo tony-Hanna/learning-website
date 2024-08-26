@@ -1,0 +1,46 @@
+.help-support-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 1.8em;
+    color: #2980b9;
+    margin-bottom: 15px;
+  }
+  
+  .faq {
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .faq h3 {
+    font-size: 1.2em;
+    color: #34495e;
+  }
+  
+  .faq p {
+    font-size: 1em;
+    color: #7f8c8d;
+    margin-top: 5px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  

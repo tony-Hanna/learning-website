@@ -1,0 +1,50 @@
+/* styles.css */
+
+
+
+.brute-force-container {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s ease;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.h2-brute-force {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.input-brute-force {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.password-brute-force {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.weak {
+    background-color: #ededf1;
+}
+
+.fair {
+    background-color: #d6d454;
+}
+
+.good {
+    background-color: #f0ec15;
+}
+
+.strong {
+    background-color: #0df10d;
+}
